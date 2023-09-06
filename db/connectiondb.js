@@ -9,7 +9,7 @@ const connectFunction= async (url,obj)=>{
 
     } catch (error) {
 
-        console.log("error to connect");
+        console.log(error);
 
     }
 }
